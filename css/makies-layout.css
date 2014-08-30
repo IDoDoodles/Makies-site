@@ -1,0 +1,13 @@
+.makie-nav > li > a {
+  background-color: green;
+  color: #ffffff;
+  border-radius: 6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer-border {
+  width: 100%;
+  border-top: 2px dashed #eeeeee;
+  padding-bottom: 3%;
+  margin-top: 6%;
+}
