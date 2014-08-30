@@ -13,6 +13,7 @@
   min-height: @navbar-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
   margin-bottom: @navbar-margin-bottom;
   border: 1px solid transparent;
+  border-bottom: 2px #ccc dashed;
 
   // Prevent floats from breaking the navbar
   &:extend(.clearfix all);
@@ -150,7 +151,7 @@
 }
 .navbar-fixed-top {
   top: 0;
-  border-width: 0 0 1px;
+  border-width: 0 0 2px;
 }
 .navbar-fixed-bottom {
   bottom: 0;
