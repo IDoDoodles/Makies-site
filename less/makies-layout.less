@@ -1,11 +1,68 @@
+// LOGO //
+.navbar-default .logo, .navbar-default .logo:hover {
+	background: url("/images/global/logo/logo.png") no-repeat;
+	color: transparent;
+	background-color: transparent;
+	border: 0;
+	width: 180px;
+	height: 60px;
+	margin-top: 12px;
+}
+
+@media (max-width: @screen-lg-min) {
+
+	.navbar-default .logo, .navbar-default .logo:hover {
+		background: url("/images/global/logo/logo-sm.png") no-repeat;
+		color: transparent;
+		background-color: transparent;
+		border: 0;
+		width: 140px;
+		height: 47px;
+		margin-top: 10px;
+	}
+ }
+
+
+@media (max-width: @screen-md-max) {
+
+	.navbar-default .logo, .navbar-default .logo:hover {
+		background: url("/images/global/logo/logo-sm.png") no-repeat;
+		color: transparent;
+		background-color: transparent;
+		border: 0;
+		width: 140px;
+		height: 47px;
+		margin-top: 10px;
+	}
+ }
+
+@media (max-width: @screen-sm-max) {
+
+	.navbar-default .logo, .navbar-default .logo:hover {
+		margin-left: 15px;
+		margin-top: 12px;
+	}
+}
+
+
+
 // NAVIGATION //
-.makie-nav {
+.navbar-default .makie-nav {
 	> li > a {
 		background-color: @brand-blue;
 		color: #ffffff;
+		font-family: @font-family-serif;
 		border-radius: 6px;
-		padding-top: 10px;
-		padding-bottom: 10px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		margin-top: 35px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		box-shadow: 0 3px #eee;
+
+		&:hover {
+			color: #ffffff;
+		}
 
 	}
 }
@@ -13,10 +70,223 @@
 
 
 
+.navbar-default .makie-nav .nav-primary {
+	background-color: @brand-blue;
+
+		&:hover {
+			background-color: @brand-blue-hover-color;
+		}
+}
+
+
+.navbar-default .makie-nav .nav-about {
+	background-color: @brand-purple;
+
+		&:hover {
+			background-color: @brand-purple-hover-color;
+		}
+}
+
+
+.navbar-default .makie-nav .nav-apps {
+	background-color: @brand-pink;
+
+		&:hover {
+			background-color: @brand-pink-hover-color;
+		}
+}
+
+
+.navbar-default .makie-nav .nav-parents {
+	background-color: @brand-orange;
+
+		&:hover {
+			background-color: @brand-orange-hover-color;
+		}
+}
+
+
+.navbar-default .makie-nav .nav-store {
+	background-color: @brand-yellow;
+
+		&:hover {
+			background-color: @brand-yellow-hover-color;
+		}
+}
+
+
+.navbar-default .makie-nav .nav-gallery {
+	background-color: @brand-green;
+
+		&:hover {
+			background-color: @brand-green-hover-color;
+		}
+}
+
+.navbar-default .makie-nav .nav-designer {
+	background-color: @brand-blue;
+
+		&:hover {
+			background-color: @brand-blue-hover-color;
+		}
+}
+
+
+.navbar-default .makie-nav .nav-sign-in, .navbar-default .makie-nav .nav-create-account {
+	background-color: white;
+	/*border: 2px solid @brand-palegray;*/
+	box-shadow: 0 0 0 2px @brand-palegray inset;
+	color: @text-color;
+
+		&:hover {
+			background-color: @gray-lighter;
+			/*border: 2px solid @brand-palegray;*/
+			box-shadow: 0 0 0 2px @brand-palegray inset;
+			color: @text-color;
+		}
+}
+
+
+// media navigation alignment tweaks //
+@media (min-width: @screen-lg-min) {
+
+	.makie-nav-align {
+		margin-left: 80px;
+	}
+ }
+
+ @media (max-width: @screen-md-max) {
+
+	.makie-nav-align {
+		margin-left: 20px;
+	}
+
+	.navbar-default .makie-nav > li > a {
+		margin-right: 5px;
+		font-size: 14px;
+	}
+
+	.navbar-default .makie-nav > li > a {
+		background-color: #5cccf3;
+		color: #ffffff;
+		font-family: "Roboto Slab", Georgia, Times, serif;
+		border-radius: 5px;
+		padding-top: 4px;
+		padding-bottom: 4px;
+		margin-top: 35px;
+		margin-right: 5px;
+		margin-bottom: 10px;
+		box-shadow: 0 2px #eee;
+	}
+
+ }
+
+
+@media (min-width: @screen-md-min) {
+
+	.navbar-default .logo, .navbar-default .logo:hover {
+	background: url("/images/global/logo/logo.png") no-repeat;
+	}
+}
+
+
+@media (max-width: @screen-sm-max) {
+
+	.makie-nav-align, .nav-accountlinks-align {
+		margin: 0;
+	}
+
+	.nav-accountlinks-align {
+		margin-bottom: 15px;
+	}
+
+	.navbar-default .makie-nav > li > a {
+		margin: 5px 0 0 0;
+	}
+}
+
+
+
 // FOOTER //
+span.palegray {
+	color: @brand-palegray;
+}
+
+p.footer {
+	font-size: @font-size-small;
+}
+
+
+@media (max-width: @screen-sm-max) {
+
+	.h5footer {
+		font-size: @font-size-h6;
+	}
+ }
+
+
+.section-drop {
+		margin-top: 60px;
+}
+
+@media (max-width: @screen-sm-max) {
+
+	.section-drop {
+		margin-top: 30px;
+	}
+ }
+
+
 .footer-border {
 	width: 100%;
 	border-top: 2px dashed #eeeeee;
-	padding-bottom: 3%;
-	margin-top: 6%;
 }
+
+.makie-stockists-footer {
+	background-color: white;
+}
+
+.stockists-spacing, .awards {
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+.makie-footer {
+	background-color: @brand-beige;
+}
+
+.qualitymark {
+	display: inline-block;
+	height: 60px;
+}
+
+// icons //
+.icons {
+	display: inline-block;
+	width: 52px;
+	height: 52px;
+	padding: 5px;
+	margin-top: 30%;
+}
+
+.icon-move {
+	-webkit-transition: all .2s ease-in-out;
+	display: inline-block;
+}
+
+// awards + stockists //
+.awards, .stockists {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+// TESTIMONIALS //
+@media (max-width: @screen-sm-max) {
+
+	.testimonials {
+		margin-top: 40px;
+	}
+  }

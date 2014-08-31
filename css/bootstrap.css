@@ -982,7 +982,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: "Roboto Slab", Georgia, Times, serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -6165,14 +6165,240 @@ button.close {
     display: none !important;
   }
 }
-.makie-nav > li > a {
-  background: green;
+.navbar-default .logo,
+.navbar-default .logo:hover {
+  background: url("/images/global/logo/logo.png") no-repeat;
+  color: transparent;
+  background-color: transparent;
+  border: 0;
+  width: 180px;
+  height: 60px;
+  margin-top: 12px;
+}
+@media (max-width: 1200px) {
+  .navbar-default .logo,
+  .navbar-default .logo:hover {
+    background: url("/images/global/logo/logo-sm.png") no-repeat;
+    color: transparent;
+    background-color: transparent;
+    border: 0;
+    width: 140px;
+    height: 47px;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 1199px) {
+  .navbar-default .logo,
+  .navbar-default .logo:hover {
+    background: url("/images/global/logo/logo-sm.png") no-repeat;
+    color: transparent;
+    background-color: transparent;
+    border: 0;
+    width: 140px;
+    height: 47px;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 991px) {
+  .navbar-default .logo,
+  .navbar-default .logo:hover {
+    margin-left: 15px;
+    margin-top: 12px;
+  }
+}
+.navbar-default .makie-nav > li > a {
+  background-color: #5cccf3;
   color: #ffffff;
+  font-family: "Roboto Slab", Georgia, Times, serif;
   border-radius: 6px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 35px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 3px #eee;
+}
+.navbar-default .makie-nav > li > a:hover {
+  color: #ffffff;
+}
+.navbar-default .makie-nav .nav-primary {
+  background-color: #5cccf3;
+}
+.navbar-default .makie-nav .nav-primary:hover {
+  background-color: #15b6ee;
+}
+.navbar-default .makie-nav .nav-about {
+  background-color: #834aab;
+}
+.navbar-default .makie-nav .nav-about:hover {
+  background-color: #5a3376;
+}
+.navbar-default .makie-nav .nav-apps {
+  background-color: #f75474;
+}
+.navbar-default .makie-nav .nav-apps:hover {
+  background-color: #f30b39;
+}
+.navbar-default .makie-nav .nav-parents {
+  background-color: #fd8d2b;
+}
+.navbar-default .makie-nav .nav-parents:hover {
+  background-color: #d96702;
+}
+.navbar-default .makie-nav .nav-store {
+  background-color: #fecd32;
+}
+.navbar-default .makie-nav .nav-store:hover {
+  background-color: #e2ac01;
+}
+.navbar-default .makie-nav .nav-gallery {
+  background-color: #a3cb49;
+}
+.navbar-default .makie-nav .nav-gallery:hover {
+  background-color: #799b2c;
+}
+.navbar-default .makie-nav .nav-designer {
+  background-color: #5cccf3;
+}
+.navbar-default .makie-nav .nav-designer:hover {
+  background-color: #15b6ee;
+}
+.navbar-default .makie-nav .nav-sign-in,
+.navbar-default .makie-nav .nav-create-account {
+  background-color: white;
+  /*border: 2px solid @brand-palegray;*/
+  box-shadow: 0 0 0 2px #ccccc8 inset;
+  color: #555555;
+}
+.navbar-default .makie-nav .nav-sign-in:hover,
+.navbar-default .makie-nav .nav-create-account:hover {
+  background-color: #eeeeee;
+  /*border: 2px solid @brand-palegray;*/
+  box-shadow: 0 0 0 2px #ccccc8 inset;
+  color: #555555;
+}
+@media (min-width: 1200px) {
+  .makie-nav-align {
+    margin-left: 80px;
+  }
+}
+@media (max-width: 1199px) {
+  .makie-nav-align {
+    margin-left: 20px;
+  }
+  .navbar-default .makie-nav > li > a {
+    margin-right: 5px;
+    font-size: 14px;
+  }
+  .navbar-default .makie-nav > li > a {
+    background-color: #5cccf3;
+    color: #ffffff;
+    font-family: "Roboto Slab", Georgia, Times, serif;
+    border-radius: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 35px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px #eee;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-default .logo,
+  .navbar-default .logo:hover {
+    background: url("/images/global/logo/logo.png") no-repeat;
+  }
+}
+@media (max-width: 991px) {
+  .makie-nav-align,
+  .nav-accountlinks-align {
+    margin: 0;
+  }
+  .nav-accountlinks-align {
+    margin-bottom: 15px;
+  }
+  .navbar-default .makie-nav > li > a {
+    margin: 5px 0 0 0;
+  }
+}
+span.palegray {
+  color: #ccccc8;
+}
+p.footer {
+  font-size: 14px;
+}
+@media (max-width: 991px) {
+  .h5footer {
+    font-size: 14px;
+  }
+}
+.section-drop {
+  margin-top: 60px;
+}
+@media (max-width: 991px) {
+  .section-drop {
+    margin-top: 30px;
+  }
 }
 .footer-border {
   width: 100%;
   border-top: 2px dashed #eeeeee;
-  padding-bottom: 3%;
-  margin-top: 6%;
+}
+.makie-stockists-footer {
+  background-color: white;
+}
+.stockists-spacing,
+.awards {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.makie-footer {
+  background-color: #f5f5f0;
+}
+.qualitymark {
+  display: inline-block;
+  height: 60px;
+}
+.icons {
+  display: inline-block;
+  width: 52px;
+  height: 52px;
+  padding: 5px;
+  margin-top: 30%;
+}
+.icon-move {
+  -webkit-transition: all 0.2s ease-in-out;
+  display: inline-block;
+}
+.awards,
+.stockists {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 991px) {
+  .testimonials {
+    margin-top: 40px;
+  }
+}
+.makies-btn-lg:hover {
+  border: 3px solid #5cccf3;
+  line-height: 1.1em;
+  outline: 1px #fff dashed;
+  outline-offset: -7px;
+  padding: 10px 14px;
+}
+.homepage-jumbotron {
+  background: url("/images/homepage/jumbotron/bg.jpg") repeat-x;
+  padding-top: 87px;
+}
+.homepage-image {
+  width: 750px;
+  height: 313px;
+  margin-left: auto;
+  margin-right: auto;
+}
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
 }
