@@ -6175,6 +6175,9 @@ button.close {
 .rowdrop {
   margin-top: 3em;
 }
+.rowdropsmall {
+  margin-top: 1.5em;
+}
 .labelspacer {
   margin-top: 1em;
 }
@@ -6182,6 +6185,13 @@ button.close {
   margin-top: 1em;
   padding: 0;
   background-color: transparent;
+}
+.makiestar {
+  margin-left: -2.5em;
+  margin-right: 1em;
+}
+li.blank {
+  list-style-type: none;
 }
 .navbar-default .logo,
 .navbar-default .logo:hover {
@@ -6193,10 +6203,10 @@ button.close {
   height: 60px;
   margin-top: 12px;
 }
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   .navbar-default .logo,
   .navbar-default .logo:hover {
-    background: url("/images/global/logo/logo-sm.png") no-repeat;
+    background: url("/images/global/logo/logo.png") no-repeat;
     color: transparent;
     background-color: transparent;
     border: 0;
