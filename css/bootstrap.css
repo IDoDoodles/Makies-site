@@ -6169,6 +6169,18 @@ button.close {
   margin-left: auto;
   margin-right: auto;
 }
+.section-drop {
+  margin-top: 60px;
+}
+.rowimagedrop {
+  margin-top: 3em;
+}
+.general-jumbotron {
+  margin-top: 1em;
+  padding: 0;
+  height: none;
+  background-color: transparent;
+}
 .navbar-default .logo,
 .navbar-default .logo:hover {
   background: url("/images/global/logo/logo.png") no-repeat;
@@ -6255,10 +6267,10 @@ button.close {
 .navbar-default .makie-nav .nav-store:hover {
   background-color: #e2ac01;
 }
-.navbar-default .makie-nav .nav-gallery {
+.navbar-default .makie-nav .nav-map {
   background-color: #a3cb49;
 }
-.navbar-default .makie-nav .nav-gallery:hover {
+.navbar-default .makie-nav .nav-map:hover {
   background-color: #799b2c;
 }
 .navbar-default .makie-nav .nav-designer {
@@ -6325,19 +6337,6 @@ button.close {
     margin: 5px 0 0 0;
   }
 }
-@media (max-width: 991px) {
-  .testimonials {
-    margin-top: 40px;
-  }
-}
-.testimonialsbg {
-  background: powderblue;
-  border-radius: 10px;
-  margin-top: 5em;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 20px;
-}
 span.palegray {
   color: #ccccc8;
 }
@@ -6351,9 +6350,6 @@ p.footer {
   .section-drop {
     margin-top: 30px;
   }
-}
-.section-drop {
-  margin-top: 60px;
 }
 .footer-border {
   width: 100%;
@@ -6417,6 +6413,19 @@ p.footer {
   margin-left: auto;
   margin-right: auto;
 }
+@media (max-width: 991px) {
+  .testimonials {
+    margin-top: 40px;
+  }
+}
+.testimonialsbg {
+  background: powderblue;
+  border-radius: 10px;
+  margin-top: 5em;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 20px;
+}
 a:hover,
 a:focus,
 a:active {
@@ -6426,7 +6435,7 @@ h1 {
   color: #222222;
   margin-top: 3em;
 }
-h1.makiemap {
+h1.pagetitle {
   text-align: center;
 }
 .makiemap-jumbotron {
@@ -6434,4 +6443,7 @@ h1.makiemap {
   padding: 0;
   height: none;
   background-color: transparent;
+}
+.maprow {
+  margin-bottom: -4.12em;
 }
