@@ -6487,3 +6487,19 @@ label {
   padding: 20px;
   border-radius: 10px;
 }
+.panel-default .panel-heading {
+  background: #b4ebfe;
+}
+.panel-default {
+  background: #e5f5fa;
+}
+.panel {
+  border: none;
+  box-shadow: none;
+}
+.panel-group .panel-heading + .panel-collapse > .panel-body {
+  border-top: none;
+}
+.rowformdrop {
+  margin-top: 1.5em;
+}
