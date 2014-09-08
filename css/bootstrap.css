@@ -6187,7 +6187,7 @@ button.close {
     margin-top: 10px;
   }
 }
-@media (max-width: 1199px) {
+@media (min-width: 992px) {
   .navbar-default .logo,
   .navbar-default .logo:hover {
     background: url("/images/global/logo/logo-sm.png") no-repeat;
@@ -6384,9 +6384,6 @@ p.footer {
   .testimonials {
     margin-top: 40px;
   }
-}
-.center {
-  margin-left: auto;
 }
 .makies-btn-lg:hover {
   border: 3px solid #5cccf3;
