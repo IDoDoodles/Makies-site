@@ -6175,7 +6175,7 @@ button.close {
   height: 60px;
   margin-top: 12px;
 }
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   .navbar-default .logo,
   .navbar-default .logo:hover {
     background: url("/images/global/logo/logo-sm.png") no-repeat;
@@ -6199,7 +6199,7 @@ button.close {
     margin-top: 10px;
   }
 }
-@media (max-width: 991px) {
+@media (min-width: 768px) {
   .navbar-default .logo,
   .navbar-default .logo:hover {
     margin-left: 15px;
@@ -6282,7 +6282,7 @@ button.close {
     margin-left: 80px;
   }
 }
-@media (max-width: 1199px) {
+@media (min-width: 992px) {
   .makie-nav-align {
     margin-left: 20px;
   }
@@ -6309,7 +6309,7 @@ button.close {
     background: url("/images/global/logo/logo.png") no-repeat;
   }
 }
-@media (max-width: 991px) {
+@media (min-width: 768px) {
   .makie-nav-align,
   .nav-accountlinks-align {
     margin: 0;
@@ -6321,13 +6321,18 @@ button.close {
     margin: 5px 0 0 0;
   }
 }
+@media (min-width: 768px) {
+  .navbar-header {
+    float: none;
+  }
+}
 span.palegray {
   color: #ccccc8;
 }
 p.footer {
   font-size: 14px;
 }
-@media (max-width: 991px) {
+@media (min-width: 768px) {
   .h5footer {
     font-size: 14px;
   }
@@ -6335,7 +6340,7 @@ p.footer {
 .section-drop {
   margin-top: 60px;
 }
-@media (max-width: 991px) {
+@media (min-width: 768px) {
   .section-drop {
     margin-top: 30px;
   }
@@ -6375,10 +6380,13 @@ p.footer {
   margin-left: auto;
   margin-right: auto;
 }
-@media (max-width: 991px) {
+@media (min-width: 768px) {
   .testimonials {
     margin-top: 40px;
   }
+}
+.center {
+  margin-left: auto;
 }
 .makies-btn-lg:hover {
   border: 3px solid #5cccf3;
@@ -6388,8 +6396,17 @@ p.footer {
   padding: 10px 14px;
 }
 .homepage-jumbotron {
-  background: url("/images/homepage/jumbotron/bg.jpg") repeat-x;
+  background: url('/images/homepage/jumbotron/bg.jpg') repeat-x;
   padding-top: 87px;
+}
+@media (min-width: 768px) {
+  .homepage-image {
+    /*background: url('/images/homepage/jumbotron/homepage-image-3.png');*/
+    width: 750px;
+    height: 313px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .homepage-image {
   width: 750px;
