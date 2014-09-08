@@ -6435,7 +6435,8 @@ h1 {
   color: #222222;
   margin-top: 3em;
 }
-h1.pagetitle {
+h1.pagetitle,
+h3.pagesubtitle {
   text-align: center;
 }
 .makiemap-jumbotron {
