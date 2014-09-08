@@ -6172,7 +6172,7 @@ button.close {
 .section-drop {
   margin-top: 60px;
 }
-.rowimagedrop {
+.rowdrop {
   margin-top: 3em;
 }
 .general-jumbotron {
@@ -6437,6 +6437,9 @@ h1 {
 }
 h1.pagetitle,
 h3.pagesubtitle {
+  text-align: center;
+}
+.text-center {
   text-align: center;
 }
 .makiemap-jumbotron {
