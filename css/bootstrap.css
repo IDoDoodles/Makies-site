@@ -2353,20 +2353,20 @@ output {
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 .form-control:focus {
-  border-color: #66afe9;
+  border-color: #5cccf3;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(92, 204, 243, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(92, 204, 243, 0.6);
 }
 .form-control::-moz-placeholder {
-  color: #777777;
+  color: #ccccc8;
   opacity: 1;
 }
 .form-control:-ms-input-placeholder {
-  color: #777777;
+  color: #ccccc8;
 }
 .form-control::-webkit-input-placeholder {
-  color: #777777;
+  color: #ccccc8;
 }
 .form-control[disabled],
 .form-control[readonly],
@@ -6175,6 +6175,9 @@ button.close {
 .rowdrop {
   margin-top: 3em;
 }
+.labelspacer {
+  margin-top: 1em;
+}
 .general-jumbotron {
   margin-top: 1em;
   padding: 0;
@@ -6221,6 +6224,24 @@ button.close {
     margin-left: 15px;
     margin-top: 12px;
   }
+}
+.default-btn {
+  background-color: #5cccf3;
+  color: #ffffff;
+  font-family: "Roboto Slab", Georgia, Times, serif;
+  border-radius: 6px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 35px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 3px #eee;
+}
+.default-btn:hover {
+  color: #ffffff;
+}
+.formsubmit-btn {
+  font-size: 20px;
 }
 .navbar-default .makie-nav > li > a {
   background-color: #5cccf3;
@@ -6273,10 +6294,12 @@ button.close {
 .navbar-default .makie-nav .nav-map:hover {
   background-color: #799b2c;
 }
-.navbar-default .makie-nav .nav-designer {
+.navbar-default .makie-nav .nav-designer,
+.default-btn {
   background-color: #5cccf3;
 }
-.navbar-default .makie-nav .nav-designer:hover {
+.navbar-default .makie-nav .nav-designer:hover,
+.default-btn:hover {
   background-color: #15b6ee;
 }
 .navbar-default .makie-nav .nav-sign-in,
@@ -6442,6 +6465,14 @@ h3.pagesubtitle {
 .text-center {
   text-align: center;
 }
+label {
+  font-weight: normal;
+}
+.requiredtag {
+  color: #fd8d2b;
+  font-style: italic;
+  font-size: 14px;
+}
 .makiemap-jumbotron {
   margin-top: 30px;
   padding: 0;
@@ -6450,4 +6481,9 @@ h3.pagesubtitle {
 }
 .maprow {
   margin-bottom: -4.12em;
+}
+.contactform {
+  background: #eeeeee;
+  padding: 20px;
+  border-radius: 10px;
 }

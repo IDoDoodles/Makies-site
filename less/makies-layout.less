@@ -13,6 +13,10 @@
 	margin-top: 3em;
 }
 
+.labelspacer {
+	margin-top: 1em;
+}
+
 
 // GENERAL JUMBOTRON STYLING //
 .general-jumbotron {
@@ -70,6 +74,33 @@
 		margin-top: 12px;
 	}
 }
+
+// DEFAULT BUTTON //
+.default-btn {
+		background-color: @brand-blue;
+		color: #ffffff;
+		font-family: @font-family-serif;
+		border-radius: 6px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		margin-top: 35px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		box-shadow: 0 3px #eee;
+
+		&:hover {
+			color: #ffffff;
+		}
+
+	}
+
+
+.formsubmit-btn {
+	font-size: 20px;
+}
+
+
+
 
 
 
@@ -150,7 +181,7 @@
 		}
 }
 
-.navbar-default .makie-nav .nav-designer {
+.navbar-default .makie-nav .nav-designer, .default-btn {
 	background-color: @brand-blue;
 
 		&:hover {
