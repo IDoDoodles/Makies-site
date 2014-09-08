@@ -6181,7 +6181,6 @@ button.close {
 .general-jumbotron {
   margin-top: 1em;
   padding: 0;
-  height: none;
   background-color: transparent;
 }
 .navbar-default .logo,
@@ -6417,24 +6416,8 @@ p.footer {
   padding: 10px 14px;
 }
 .homepage-jumbotron {
-  background: url('/images/homepage/jumbotron/bg.jpg') repeat-x;
-  padding-top: 87px;
-  height: 400px;
-}
-@media (min-width: 768px) {
-  .homepage-image {
-    /*background: url('/images/homepage/jumbotron/homepage-image-3.png');*/
-    width: 750px;
-    height: 313px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-.homepage-image {
-  width: 750px;
-  height: 313px;
-  margin-left: auto;
-  margin-right: auto;
+  background: url('/images/homepage/jumbotron/bg.jpg');
+  padding: 87px 0 0 0;
 }
 @media (max-width: 991px) {
   .testimonials {
