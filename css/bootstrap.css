@@ -6175,7 +6175,7 @@ button.close {
   height: 60px;
   margin-top: 12px;
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .navbar-default .logo,
   .navbar-default .logo:hover {
     background: url("/images/global/logo/logo-sm.png") no-repeat;
@@ -6187,7 +6187,7 @@ button.close {
     margin-top: 10px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .navbar-default .logo,
   .navbar-default .logo:hover {
     background: url("/images/global/logo/logo-sm.png") no-repeat;
@@ -6199,7 +6199,7 @@ button.close {
     margin-top: 10px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .navbar-default .logo,
   .navbar-default .logo:hover {
     margin-left: 15px;
@@ -6282,7 +6282,7 @@ button.close {
     margin-left: 80px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 1199px) {
   .makie-nav-align {
     margin-left: 20px;
   }
@@ -6309,7 +6309,7 @@ button.close {
     background: url("/images/global/logo/logo.png") no-repeat;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 991px) {
   .makie-nav-align,
   .nav-accountlinks-align {
     margin: 0;
@@ -6321,29 +6321,22 @@ button.close {
     margin: 5px 0 0 0;
   }
 }
-@media (min-width: 768px) {
-  .navbar-header {
-    float: none;
-  }
-}
 span.palegray {
   color: #ccccc8;
 }
 p.footer {
   font-size: 14px;
 }
-@media (min-width: 768px) {
+@media (max-width: 991px) {
   .h5footer {
     font-size: 14px;
+  }
+  .section-drop {
+    margin-top: 30px;
   }
 }
 .section-drop {
   margin-top: 60px;
-}
-@media (min-width: 768px) {
-  .section-drop {
-    margin-top: 30px;
-  }
 }
 .footer-border {
   width: 100%;
@@ -6380,7 +6373,7 @@ p.footer {
   margin-left: auto;
   margin-right: auto;
 }
-@media (min-width: 768px) {
+@media (max-width: 991px) {
   .testimonials {
     margin-top: 40px;
   }

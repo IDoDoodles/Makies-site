@@ -9,7 +9,7 @@
 	margin-top: 12px;
 }
 
-@media (min-width: @screen-lg-min) {
+@media (max-width: @screen-lg-min) {
 
 	.navbar-default .logo, .navbar-default .logo:hover {
 		background: url("/images/global/logo/logo-sm.png") no-repeat;
@@ -23,7 +23,7 @@
  }
 
 
-@media (min-width: @screen-md-min) {
+@media (max-width: @screen-md-min) {
 
 	.navbar-default .logo, .navbar-default .logo:hover {
 		background: url("/images/global/logo/logo-sm.png") no-repeat;
@@ -36,7 +36,7 @@
 	}
  }
 
-@media (min-width: @screen-sm-min) {
+@media (max-width: @screen-sm-min) {
 
 	.navbar-default .logo, .navbar-default .logo:hover {
 		margin-left: 15px;
@@ -158,7 +158,7 @@
 	}
  }
 
- @media (min-width: @screen-md-min) {
+ @media (max-width: @screen-md-max) {
 
 	.makie-nav-align {
 		margin-left: 20px;
@@ -193,7 +193,7 @@
 }
 
 
-@media (min-width: @screen-sm-min) {
+@media (max-width: @screen-sm-max) {
 
 	.makie-nav-align, .nav-accountlinks-align {
 		margin: 0;
@@ -209,12 +209,6 @@
 }
 
 
-@media (min-width: @screen-sm-min) {
-	.navbar-header {
-	float: none;
-	}
-}
-
 
 // FOOTER //
 span.palegray {
@@ -226,24 +220,22 @@ p.footer {
 }
 
 
-@media (min-width: @screen-sm-min) {
+@media (max-width: @screen-sm-max) {
 
 	.h5footer {
 		font-size: @font-size-h6;
 	}
+
+	.section-drop {
+		margin-top: 30px;
+	}
+
  }
 
 
 .section-drop {
 		margin-top: 60px;
 }
-
-@media (min-width: @screen-sm-min) {
-
-	.section-drop {
-		margin-top: 30px;
-	}
- }
 
 
 .footer-border {
@@ -293,7 +285,7 @@ p.footer {
 
 
 // TESTIMONIALS //
-@media (min-width: @screen-sm-min) {
+@media (max-width: @screen-sm-max) {
 
 	.testimonials {
 		margin-top: 40px;
