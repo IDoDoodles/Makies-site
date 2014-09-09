@@ -6244,13 +6244,14 @@ li.blank {
   margin-top: 35px;
   margin-right: 10px;
   margin-bottom: 10px;
-  box-shadow: 0 3px #eee;
+  box-shadow: 0 4px #eee;
 }
 .default-btn:hover {
   color: #ffffff;
 }
 .formsubmit-btn {
   font-size: 20px;
+  box-shadow: 0 4px #ddd;
 }
 .navbar-default .makie-nav > li > a {
   background-color: #5cccf3;
